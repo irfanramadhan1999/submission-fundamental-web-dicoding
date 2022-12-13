@@ -1,0 +1,53 @@
+input, button {
+    font-size: 16px;
+}
+
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid #9EB23B;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px rgba(90, 90, 90, 0.8);
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: #9EB23B;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background-color: #9EB23B;
+    color: #FCF9C6;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+
+.input_section > form > .input > label {
+    color: #9EB23B;
+    font-weight: bold;
+}
+
